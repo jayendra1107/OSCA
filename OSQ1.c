@@ -59,7 +59,7 @@ int main()
 		swap=arrival[i];
 		arrival[i]=arrival[position];
 		arrival[position]=swap;
-        swap=priority[i];
+        	swap=priority[i];
 		priority[i]=priority[position];
 		priority[position]=swap;
 		swap=process[i];
